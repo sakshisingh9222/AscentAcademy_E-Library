@@ -1,0 +1,645 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ascent Academy E-Library</title>
+    <link rel="shortcut icon" href="aa.jpeg" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
+        integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/styles.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+    crossorigin="anonymous">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="container">
+
+            <div class="navbar-header">
+                <button class="navbar-toggler" data-toggle="open-navbar1">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <a href="#">
+                    <img src="aa.jpeg" alt="" height="100" width="100">
+
+
+                </a>
+            </div>
+            <h4>Ascent<span>Academy</span></h4>
+            <div class="navbar-menu" id="open-navbar1">
+                <ul class="navbar-nav">
+                    <li class="active"><a href="/">Home</a></li>
+                    <li class="navbar-dropdown">
+                        <a href="#" class="dropdown-toggler" data-dropdown="my-dropdown-id">
+                            Books <i class="fa fa-angle-down"></i>
+                        </a>
+                        <ul class="dropdown" id="my-dropdown-id">
+                            <li><a href="#sql-container">SQL</a></li>
+                            <li><a href="#java-container">JAVA</a></li>
+
+                            <li><a href="#maths-container">MATHS</a></li>
+
+                            <li><a href="#relegion-container">RELEGION</a></li>
+                            <li><a href="#history-container">HISTORY</a></li>
+                            <li><a href="#science-container">SCIENCE</a></li>
+                            <li><a href="#architecture-container">ARCHITECTURE</a></li>
+                            <li><a href="#engineering-container">ENGINEERING</a></li>
+                            <li><a href="#culture-container">CULTURE</a></li>
+
+                        </ul>
+                    </li>
+
+                    <li><a href="#aboutus">About</a></li>
+                    <li><a href="#contactUs">Contact</a></li>
+                    <li><button type="button" class="btn btn-outline-primary"><a class="signin" href="signin.html" >LOGIN/SIGNUP</a></button></li>
+                    &nbsp;
+                    
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active " data-bs-interval="100"  data-bs-ride="carousel">
+                <img src="l1.jpeg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5 style="color: white;">Browse our Collections</h5>
+                    <p style="color: white;">Each Collection of our our library represents a domain of human development wisdom that
+                        influences or is influenced by coaching. </p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="l2.jpeg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5 style="color: white;">Sidney Sheldon</h5>
+                    <p style="color: white;">"Libraries store the energy that fuels the imagination. They open up windows to the world and
+                        inspire us to explore and achieve, and contribute to improving our quality of life."</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="l3.jpeg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5 style="color: white;">R. David Lankes </h5>
+
+
+                    <p style="color: white;">"Bad libraries build collections, good libraries build services, great libraries build
+                        communities."</p>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <div class="containerr" style="padding-top: 50px;">
+        <div class="firstheading">
+            <h1 style="text-align: left;padding-top: 30px; padding: 30px; border: 2px solid whitesmoke;border-width: 10px;">Our Library
+                Books</h1>
+        </div>
+    </div>
+    <div class="booksContainer" >
+        <div id="sql-container" style=" border: 2px solid whitesmoke; margin-left: 60px;">
+            <h2 style="text-align: center;">
+                SQL
+            </h2>
+            <hr>
+            <div class="row">
+
+                <div class="col-sm-3">
+                    <div class="card" style="width: 18rem;margin-left: 30px;margin-right: 30px;">
+                        <img src="sql.jpeg" class="card-img-top" alt="..." height="400">
+                        <div class="card-body">
+                            <h5 class="card-title">Learning SQl</h5>
+                            <p class="card-text">By Alan Beaulieu</p>
+                            <button type="button" class="btn btn-outline-primary">DETAIL</button>&nbsp;<button
+                                type="button" class="btn btn-outline-warning">AVAILABLE(1)</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="card" style="width: 18rem;margin-left: 30px;margin-left: 30px;margin-right: 30px;">
+                        <img src="Sql2.png" class="card-img-top" alt="..." height="400">
+                        <div class="card-body">
+                            <h5 class="card-title"> SQl</h5>
+                            <p class="card-text">By Robert Sheldon</p>
+                            <button type="button" class="btn btn-outline-primary">DETAIL</button>&nbsp;<button
+                                type="button" class="btn btn-outline-warning">AVAILABLE(4)</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="card" style="width: 18rem;margin-left: 30px;margin-right: 30px;">
+                        <img src="sql3.jpeg" class="card-img-top" alt="..." height="400">
+                        <div class="card-body">
+                            <h5 class="card-title">A Guide to SQl</h5>
+                            <p class="card-text">By Philip J. Pratt</p>
+                            <button type="button" class="btn btn-outline-primary">DETAIL</button>&nbsp;<button
+                                type="button" class="btn btn-outline-danger">ALL ISSUED(0)</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="card" style="width: 18rem;margin-left: 30px;margin-right: 30px;">
+                        <img src="sql4.jpeg" class="card-img-top" alt="..." height="400">
+                        <div class="card-body">
+                            <h5 class="card-title">SQl from the Ground Up</h5>
+                            <p class="card-text">By Mary Pyefinch</p>
+                            <button type="button" class="btn btn-outline-primary">DETAIL</button>&nbsp;<button
+                                type="button" class="btn btn-outline-warning">AVAILABLE(2)</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div id="java-container" style=" border: 2px solid whitesmoke; margin-left: 60px; padding-top: 30px;">
+            <h2 style="text-align: center;">
+                JAVA
+            </h2>
+            <hr>
+            <div class="row">
+
+                <div class="col-sm-3">
+                    <div class="card" style="width: 18rem;margin-left: 30px;margin-right: 30px;">
+                        <img src="java1.png" class="card-img-top" alt="..." height="400">
+                        <div class="card-body">
+                            <h5 class="card-title">Java The Complete Reference</h5>
+                            <p class="card-text">By Herbert Schildtu</p>
+                            <button type="button" class="btn btn-outline-primary">DETAIL</button>&nbsp;<button
+                                type="button" class="btn btn-outline-danger">ALL ISSUED</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="card" style="width: 18rem;margin-left: 30px;margin-right: 30px;">
+                        <img src="java2.png" class="card-img-top" alt="..." height="400">
+                        <div class="card-body">
+                            <h5 class="card-title"> Core Java An Integrated Approach (Black Book)
+                            </h5>
+                            <p class="card-text">By Dr. R. Nageswara Rao</p>
+                            <button type="button" class="btn btn-outline-primary">DETAIL</button>&nbsp;<button
+                                type="button" class="btn btn-outline-warning">AVAILABLE(6)</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="card" style="width: 18rem;margin-left: 30px;margin-right: 30px;">
+                        <img src="java5.png" class="card-img-top" alt="..." height="425">
+                        <div class="card-body">
+                            <h5 class="card-title">Head First Java</h5>
+                            <p class="card-text">By Kathy Sierra, Bert Bates</p>
+                            <button type="button" class="btn btn-outline-primary">DETAIL</button>&nbsp;<button
+                                type="button" class="btn btn-outline-warning">AVAILABLE(8)</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="card" style="width: 18rem;margin-left: 30px;margin-right: 30px;">
+                        <img src="java4.png" class="card-img-top" alt="..." height="420">
+                        <div class="card-body">
+                            <h5 class="card-title">Effective Java</h5>
+                            <p class="card-text">By Joshua Bloch</p>
+                            <button type="button" class="btn btn-outline-primary">DETAIL</button>&nbsp;<button
+                                type="button" class="btn btn-outline-warning">AVAILABLE(3)</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div id="relegion-container" style=" border: 2px solid whitesmoke; margin-left: 60px; padding-top: 30px;">
+            <h2 style="text-align: center;">
+                RELEGION
+            </h2>
+            <hr>
+            <div class="row">
+
+                <div class="col-sm-3">
+                    <div class="card" style="width: 18rem;margin-left: 30px;margin-right: 30px;">
+                        <img src="rel1.webp" class="card-img-top" alt="..." height="400">
+                        <div class="card-body">
+                            <h5 class="card-title">Shrimad Bhagwat Geeta Yathroop In Hindi</h5>
+                            <p class="card-text">By A.C BHAKTIVEDANT SWAMI SHRILA PRABHUPAD</p>
+                            <button type="button" class="btn btn-outline-primary">DETAIL</button>&nbsp;<button
+                                type="button" class="btn btn-outline-warning">AVAILABLE(20)</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="card" style="width: 18rem;margin-left: 30px;margin-right: 30px;">
+                        <img src="rel2.jpeg" class="card-img-top" height="450" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title"> Mahabharata
+                            </h5>
+                            <p class="card-text">By Dharma Krishna</p>
+                            <button type="button" class="btn btn-outline-primary">DETAIL</button>&nbsp;<button
+                                type="button" class="btn btn-outline-warning">AVAILABLE(4)</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="card" style="width: 18rem;margin-left: 30px;margin-right: 30px;">
+                        <img src="rel3.jpeg" class="card-img-top" height="450" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Gita Press Ramcharitmanas</h5>
+                            <p class="card-text">By Tulsidas Krit Ramcharitmanas</p>
+                            <button type="button" class="btn btn-outline-primary">DETAIL</button>&nbsp;<button
+                                type="button" class="btn btn-outline-danger">ALL ISSUED</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="card" style="width: 18rem;margin-left: 30px;margin-right: 30px;">
+                        <img src="rel4.jpeg" class="card-img-top" height="450" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Hanuman Chalisa</h5>
+                            <p class="card-text">By Shubha Vilas</p>
+                            <button type="button" class="btn btn-outline-primary">DETAIL</button>&nbsp;<button
+                                type="button" class="btn btn-outline-warning">AVAILABLE(9)</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div id="maths-container" style=" border: 2px solid whitesmoke; margin-left: 60px;padding-top: 40px;">
+            <h2 style="text-align: center;">
+                MATHS
+            </h2>
+            <hr>
+            <div class="row">
+
+                <div class="col-sm-3">
+                    <div class="card" style="width: 18rem;margin-left: 30px;margin-right: 30px;">
+                        <img src="math1.jpeg" class="card-img-top" alt="..." height="400">
+                        <div class="card-body">
+                            <h5 class="card-title">Excel Startup Maths</h5>
+                            <p class="card-text">By Damon James</p>
+                            <button type="button" class="btn btn-outline-primary">DETAIL</button>&nbsp;<button
+                                type="button" class="btn btn-outline-warning">AVAILABLE(21)</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="card" style="width: 18rem;margin-left: 30px;margin-right: 30px;">
+                        <img src="math2.jpeg" class="card-img-top" alt="..." height="400">
+                        <div class="card-body">
+                            <h5 class="card-title"> Basic Maths for Dummies</h5>
+                            <p class="card-text">By Colin Beveridge</p>
+                            <button type="button" class="btn btn-outline-primary">DETAIL</button>&nbsp;<button
+                                type="button" class="btn btn-outline-warning">AVAILABLE(11)</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="card" style="width: 18rem;margin-left: 30px;margin-right: 30px;">
+                        <img src="math3.jpeg" class="card-img-top" alt="..." height="400">
+                        <div class="card-body">
+                            <h5 class="card-title">The Chemistry Maths Book</h5>
+                            <p class="card-text">By Erich Steiner</p>
+                            <button type="button" class="btn btn-outline-primary">DETAIL</button>&nbsp;<button
+                                type="button" class="btn btn-outline-warning">AVAILABLE(10)</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="card" style="width: 18rem;margin-left: 30px;margin-right: 30px;">
+                        <img src="math4.jpeg" class="card-img-top" alt="..." height="400">
+                        <div class="card-body">
+                            <h5 class="card-title">JEE Main Maths</h5>
+                            <p class="card-text">By Bhupinder Singh Tomar</p>
+                            <button type="button" class="btn btn-outline-primary">DETAIL</button>&nbsp;<button
+                                type="button" class="btn btn-outline-warning">AVAILABLE(44)</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div id="history-container" style=" border: 2px solid whitesmoke; margin-left: 60px;">
+            <h2 style="text-align: center;">
+                HISTORY
+            </h2>
+            <hr>
+            <div class="row">
+
+                <div class="col-sm-3">
+                    <div class="card" style="width: 18rem;margin-left: 30px;margin-right: 30px;">
+                        <img src="h1.jpeg" class="card-img-top" alt="..." height="400">
+                        <div class="card-body">
+                            <h5 class="card-title">A History of Platinum and Allied Metals</h5>
+                            <p class="card-text">By Donald Mc Donald</p>
+                            <button type="button" class="btn btn-outline-primary">DETAIL</button>&nbsp;<button
+                                type="button" class="btn btn-outline-warning">AVAILABLE(21)</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="card" style="width: 18rem;margin-left: 30px;margin-right: 30px;">
+                        <img src="h2.jpeg" class="card-img-top" alt="..." height="400">
+                        <div class="card-body">
+                            <h5 class="card-title">A Short History of Nearly Everything</h5>
+                            <p class="card-text">By Bill Bryson</p>
+                            <button type="button" class="btn btn-outline-primary">DETAIL</button>&nbsp;<button
+                                type="button" class="btn btn-outline-warning">AVAILABLE(51)</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="card" style="width: 18rem;margin-left: 30px;margin-right: 30px;">
+                        <img src="h3.jpeg" class="card-img-top" alt="..." height="410">
+                        <div class="card-body">
+                            <h5 class="card-title">Science And Values</h5>
+                            <p class="card-text">By Larry Lauden</p>
+                            <button type="button" class="btn btn-outline-primary">DETAIL</button>&nbsp;<button
+                                type="button" class="btn btn-outline-danger">ALL ISSUED(0)</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+        <div id="science-container" style=" border: 2px solid whitesmoke; margin-left: 60px;">
+            <h2 style="text-align: center;">
+                SCIENCE
+            </h2>
+            <hr>
+            <div class="row">
+
+                <div class="col-sm-3">
+                    <div class="card" style="width: 18rem;margin-left: 30px;margin-right: 30px;">
+                        <img src="s1.webp" class="card-img-top" alt="..." height="400">
+                        <div class="card-body">
+                            <h5 class="card-title">Project Hail Mary</h5>
+                            <p class="card-text">By Andy Weir</p>
+                            <button type="button" class="btn btn-outline-primary">DETAIL</button>&nbsp;<button
+                                type="button" class="btn btn-outline-warning">AVAILABLE(11)</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="card" style="width: 18rem;margin-left: 30px;margin-right: 30px;">
+                        <img src="s2.webp" class="card-img-top" alt="..." height="400">
+                        <div class="card-body">
+                            <h5 class="card-title">Ask An Astronaut</h5>
+                            <p class="card-text">By Tim Peake</p>
+                            <button type="button" class="btn btn-outline-primary">DETAIL</button>&nbsp;<button
+                                type="button" class="btn btn-outline-warning">AVAILABLE(21)</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="card" style="width: 18rem;margin-left: 30px;margin-right: 30px;">
+                        <img src="s3.webp" class="card-img-top" alt="..." height="400">
+                        <div class="card-body">
+                            <h5 class="card-title">Something Deeply Hidden</h5>
+                            <p class="card-text">By Sean Carroll</p>
+                            <button type="button" class="btn btn-outline-primary">DETAIL</button>&nbsp;<button
+                                type="button" class="btn btn-outline-danger">ALL ISSUED(0)</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="card" style="width: 18rem;margin-left: 30px;margin-right: 30px;">
+                        <img src="s4.webp" class="card-img-top" alt="..." height="380">
+                        <div class="card-body">
+                            <h5 class="card-title">Diary of an Apprentice Astronaut</h5>
+                            <p class="card-text">By Samantha Cristoforetti</p>
+                            <button type="button" class="btn btn-outline-primary">DETAIL</button>&nbsp;<button
+                                type="button" class="btn btn-outline-warning">AVAILABLE(34)</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div id="architecture-container" style=" border: 2px solid whitesmoke; margin-left: 60px;">
+            <h2 style="text-align: center;">
+                ARCHITECTURE
+            </h2>
+            <hr>
+            <div class="row">
+
+                <div class="col-sm-3">
+                    <div class="card" style="width: 18rem;margin-left: 30px;margin-right: 30px;">
+                        <img src="a1.jpeg" class="card-img-top" alt="..." height="400">
+                        <div class="card-body">
+                            <h5 class="card-title">ARCHITECTURE</h5>
+                            <p class="card-text">By Rudolf Steiner</p>
+                            <button type="button" class="btn btn-outline-primary">DETAIL</button>&nbsp;<button
+                                type="button" class="btn btn-outline-warning">AVAILABLE(21)</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="card" style="width: 18rem;margin-left: 30px;margin-right: 30px;">
+                        <img src="a2.jpeg" class="card-img-top" alt="..." height="400">
+                        <div class="card-body">
+                            <h5 class="card-title"> The Architecture of Tokyo</h5>
+                            <p class="card-text">By Hiroshi Watanabae</p>
+                            <button type="button" class="btn btn-outline-primary">DETAIL</button>&nbsp;<button
+                                type="button" class="btn btn-outline-warning">AVAILABLE(11)</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="card" style="width: 18rem;margin-left: 30px;margin-right: 30px;">
+                        <img src="a3.jpeg" class="card-img-top" alt="..." height="380">
+                        <div class="card-body">
+                            <h5 class="card-title">Building Evolutionary Architecture</h5>
+                            <p class="card-text">By Neal Ford</p>
+                            <button type="button" class="btn btn-outline-primary">DETAIL</button>&nbsp;<button
+                                type="button" class="btn btn-outline-danger">ALL ISSUED(0)</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="card" style="width: 18rem;margin-left: 30px;margin-right: 30px;">
+                        <img src="a4.jpeg" class="card-img-top" alt="..." height="400">
+                        <div class="card-body">
+                            <h5 class="card-title">Architecture of Italy</h5>
+                            <p class="card-text">By Jean Castex</p>
+                            <button type="button" class="btn btn-outline-primary">DETAIL</button>&nbsp;<button
+                                type="button" class="btn btn-outline-warning">AVAILABLE(24)</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div id="culture-container" style=" border: 2px solid whitesmoke; margin-left: 60px;">
+            <h2 style="text-align: center;">
+                CULTURE
+            </h2>
+            <hr>
+            <div class="row">
+
+                <div class="col-sm-3">
+                    <div class="card" style="width: 18rem;margin-left: 30px;margin-right: 30px;">
+                        <img src="c1.jpeg" class="card-img-top" alt="..." height="400"> 
+                        <div class="card-body">
+                            <h5 class="card-title">Concepts of Culture</h5>
+                            <p class="card-text">By Adam Muller</p>
+                            <button type="button" class="btn btn-outline-primary">DETAIL</button>&nbsp;<button
+                                type="button" class="btn btn-outline-warning">AVAILABLE(11)</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="card" style="width: 18rem;margin-left: 30px;margin-right: 30px;">
+                        <img src="c2.jpeg" class="card-img-top" alt="..." height="400">
+                        <div class="card-body">
+                            <h5 class="card-title">Culture on Display</h5>
+                            <p class="card-text">By Bella</p>
+                            <button type="button" class="btn btn-outline-primary">DETAIL</button>&nbsp;<button
+                                type="button" class="btn btn-outline-warning">AVAILABLE(21)</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="card" style="width: 18rem;margin-left: 30px;margin-right: 30px;">
+                        <img src="c3.jpeg" class="card-img-top" alt="..." height="400">
+                        <div class="card-body">
+                            <h5 class="card-title">Cultute and Environment</h5>
+                            <p class="card-text">By Irwin Altman</p>
+                            <button type="button" class="btn btn-outline-primary">DETAIL</button>&nbsp;<button
+                                type="button" class="btn btn-outline-danger">ALL ISSUED(0)</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+        <div id="engineering-container" style=" border: 2px solid whitesmoke; margin-left: 60px;">
+            <h2 style="text-align: center;">
+                ENGINEERING
+            </h2>
+            <hr>
+            <div class="row">
+
+                <div class="col-sm-3">
+                    <div class="card" style="width: 18rem;margin-left: 30px;margin-right: 30px;">
+                        <img src="e1.jpeg" class="card-img-top" alt="..." height="400">
+                        <div class="card-body">
+                            <marquee class="card-title">Advances in Mechanical and Electronic Engineering </marquee>
+                            <p class="card-text">By David Jin</p>
+                            <button type="button" class="btn btn-outline-primary">DETAIL</button>&nbsp;<button
+                                type="button" class="btn btn-outline-warning">AVAILABLE(13)</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="card" style="width: 18rem;margin-left: 30px;margin-right: 30px;">
+                        <img src="e2.jpeg" class="card-img-top" alt="..." height="400">
+                        <div class="card-body">
+                            <h5 class="card-title">Basic Electronic Engineering</h5>
+                            <p class="card-text">By U.A Bakshi</p>
+                            <button type="button" class="btn btn-outline-primary">DETAIL</button>&nbsp;<button
+                                type="button" class="btn btn-outline-warning">AVAILABLE(1)</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="card" style="width: 18rem;margin-left: 30px;margin-right: 30px;">
+                        <img src="e3.jpeg" class="card-img-top" alt="..." height="400">
+                        <div class="card-body">
+                            <marquee class="card-title">More Electronic Gadgets For the Evil Genius </marquee>
+                            <p class="card-text">By Robert Lenni</p>
+                            <button type="button" class="btn btn-outline-primary">DETAIL</button>&nbsp;<button
+                                type="button" class="btn btn-outline-danger">ALL ISSUED(0)</button>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+
+        </div>
+    </div>
+    <footer>
+        <div class="contact">
+          <h6 id="aboutus">About us</h6>
+          <p class="one">Library Management System is carefully developed for easy management of any type of library. It’s actually a virtual version of a real library.</p>
+          <div class="details">
+            <div>
+              <p>phone number</p>
+              <span><a href="">+91787788778</a></span>
+            </div> 
+            <div> 
+              <p>email address</p>
+              <span><a href=""> hd@gmail.com</a></span>
+            </div>
+            <div>
+              <p>our location</p>
+              <span>India <br> 751030 Bhubaneswar</span>
+            </div> 
+            <div>
+              <p>working hours</p>
+              <span>Mon-Sat 10.00am-7.00pm</span>
+            </div> 
+          </div>  
+        </div>
+        <div class="information">
+          <h6>Our Books</h6>
+          <p>MATHS</p>
+          <p>HISTORY</p>
+          <p>ENGINEERING</p>
+          <p>CULTURE</p>
+          <p>ARCHITECTURE</p>
+          <p>RELEGION</p>
+          <p>SCIENCE</p>
+        </div>
+       
+        <div class="newsletter">
+          <p id="contactUs">follow me</p>
+          <a href=""><i class="fab fa-linkedin"></i></a>
+          <a href=""><i class="fab fa-twitter"></i></a>
+          <a href=""><i class="fab fa-github"></i></a>
+          <a href=""><i class="fab fa-instagram"></i></a>
+          
+        </div>
+      </footer>
+      <div class="footer-2">
+        <center>
+        <p >Copyright &#169 2023 by Sakshi Singh</p>
+    </center>
+      </div>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/js/all.min.js"></script>
+</body>
+<script src="script.js"></script>
+
+
+
+
+
+
+</html>
